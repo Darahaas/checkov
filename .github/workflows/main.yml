@@ -18,7 +18,7 @@ jobs:
         uses: actions/checkout@master
         
       - name: Install jq
-        run: apt-get install jq
+        run: sudo apt-get install jq
       
       - name: Setup Terraform
         uses: hashicorp/setup-terraform@v1
